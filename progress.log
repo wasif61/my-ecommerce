@@ -1,0 +1,17 @@
+[2013-07-24 13:23:09] START
+[2013-07-24 13:24:16] EDIT my_ecommerce/models/db.py: 10
+[2013-07-24 13:25:01] CREATE produtos.py: 0
+[2013-07-24 13:25:20] EDIT my_ecommerce/models/produtos.py: 17
+[2013-07-24 13:50:44] EDIT my_ecommerce/controllers/default.py: 10
+[2013-07-24 13:51:02] EDIT my_ecommerce/controllers/default.py: 0
+[2013-07-24 13:52:31] EDIT my_ecommerce/controllers/default.py: 0
+[2013-07-24 13:52:43] EDIT my_ecommerce/controllers/default.py: 0
+[2013-07-24 13:52:55] EDIT my_ecommerce/controllers/default.py: 0
+[2013-07-24 13:53:25] EDIT my_ecommerce/controllers/default.py: 0
+[2013-07-24 13:53:47] EDIT my_ecommerce/controllers/default.py: 0
+[2013-07-24 14:26:59] CREATE default/create.html: 0
+[2013-07-24 14:29:22] EDIT my_ecommerce/views/default/create.html: 1
+[2013-07-24 16:22:36] CREATE createItem.html: 0
+[2013-07-24 16:23:29] DELETE my_ecommerce/views/createItem.html: -3
+[2013-07-24 16:23:46] CREATE default/createItem.html: 0
+[2013-07-24 18:06:52] EDIT my_ecommerce/views/default/editCategoria.html: 0

@@ -1,0 +1,38 @@
+{{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
+{{extend 'layout.html'}}
+
+<div class="container">
+  <div class="row-fluid">
+    <span class="span6 offset3">
+      <h4>Todos os Itens </h4>
+    <table class="table table-striped">
+      <tr>
+        <td>
+          <h5>Descrição</h5>
+        </td>
+        <td>
+          <h5>Valor</h5>
+        </td>
+        <td>
+          <h5>Comprar</h5>
+        </td>
+      </tr>
+      {{for item in itens:}}
+      <tr>
+        <td>
+            {{=item.nome}} 
+        </td>
+        <td>
+            {{=item.valor}} 
+        </td>
+        <td>
+          <i class="icon-shopping-cart" onclick="location.href='http://127.0.0.1:8000/my_ecommerce/default/meuCarrinho/{{=item.id}}'"></i>
+        </td>
+      </tr>
+      {{pass}}
+    </table>
+  </span>
+</div>
+</div>
+
+

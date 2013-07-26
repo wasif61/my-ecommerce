@@ -1,0 +1,26 @@
+{{left_sidebar_enabled,right_sidebar_enabled=False,('message' in globals())}}
+{{extend 'layout.html'}}
+
+
+<div class="container">
+  <div class="row-fluid">
+    <span class="span6 offset3">
+      <a href="http://127.0.0.1:8000/my_ecommerce/default/createCategoria"><h4>Nova Categoria </h4></a></a>
+      <a href="http://127.0.0.1:8000/my_ecommerce/default/createItem"><h4>Novo Item </h4></a>
+    <table class="table table-striped">
+      {{for item in itens:}}
+      <tr>
+        <td>
+            {{=item.nome}} 
+        </td>
+        <td>
+          <a href="http://127.0.0.1:8000/my_ecommerce/default/editItem/{{=item.id}}">Editar</a>
+        </td>
+      </tr>
+      {{pass}}
+    </table>
+  </span>
+</div>
+</div>
+
+
